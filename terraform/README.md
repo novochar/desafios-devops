@@ -10,10 +10,12 @@ terraform apply
 
 ## Observações
 
-para deploy em produção recomento utilizar autoscaling group:
+Para deploy em produção recomento utilizar autoscaling group:
 https://www.terraform.io/docs/providers/aws/r/autoscaling_group.html
+
 e AWS Elastic Load Balancer:
 https://aws.amazon.com/pt/elasticloadbalancing/
+
 e Endereços Elastic IP:
 https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
 
