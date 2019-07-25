@@ -5,7 +5,9 @@
 Exemplo de execução(substitua os valores de cloud e range para os adequados)
 
 terraform init
+
 terraform plan -var="cloud=us-west-1" -var='range=["0.0.0.0/0"]'
+
 terraform apply
 
 ## Observações
