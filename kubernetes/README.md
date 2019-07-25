@@ -1,5 +1,19 @@
 # Desafio 02: Kubernetes
 
+## Resolução
+
+instalar Docker, Minikube, kubectl
+
+Para rodar o deploy utilizar o comando:
+
+./deployment.sh
+
+Pegar o endereço retornado da execução do deployment e colocar no navegador
+
+## Observações
+
+Em produção provavelmente não usaria o ingress, usaria o load balancer fonecido pela AWS ou GCP, senão utilizaria algum serviço de descoberta de serviço open source como o Istio (https://istio.io)
+
 ## Motivação
 
 Kubernetes atualmente é a principal ferramenta de orquestração e _deployment_ de _containers_ utilizado no mundo, práticamente tornando-se um padrão para abstração de recursos de infraestrutura. 

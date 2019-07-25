@@ -1,8 +1,8 @@
 # Desafio 01: Infrastructure-as-code - Terraform
 
-## resolução
+## Resolução
 
-Exemplo de execução(substitua os valores de cloud e range para os adequados)
+Exemplo de execução(substitua os valores de cloud e range para os adequados):
 
 terraform init
 
