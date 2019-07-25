@@ -1,5 +1,13 @@
 # Desafio 01: Infrastructure-as-code - Terraform
 
+## resolução
+
+Exemplo de execução(substitua os valores de cloud e range para os adequados)
+
+terraform init
+terraform plan -var="cloud=us-west-1" -var='range=["0.0.0.0/0"]'
+terraform apply
+
 ## Motivação
 
 Recursos de infraestrutura em nubvem devem sempre ser criados utilizando gerenciadores de configuração, tais como [Cloudformation](https://aws.amazon.com/cloudformation/), [Terraform](https://www.terraform.io/) ou [Ansible](https://www.ansible.com/), garantindo que todo recurso possa ser versionado e recriado de forma facilitada.
