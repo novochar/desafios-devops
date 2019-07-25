@@ -8,6 +8,17 @@ terraform init
 terraform plan -var="cloud=us-west-1" -var='range=["0.0.0.0/0"]'
 terraform apply
 
+## Observações
+
+para deploy em produção recomento utilizar autoscaling group:
+https://www.terraform.io/docs/providers/aws/r/autoscaling_group.html
+e AWS Elastic Load Balancer:
+https://aws.amazon.com/pt/elasticloadbalancing/
+e Endereços Elastic IP:
+https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+
+Ambas tecnologias não foram utilizadas, para não sair do limite gratuito.
+
 ## Motivação
 
 Recursos de infraestrutura em nubvem devem sempre ser criados utilizando gerenciadores de configuração, tais como [Cloudformation](https://aws.amazon.com/cloudformation/), [Terraform](https://www.terraform.io/) ou [Ansible](https://www.ansible.com/), garantindo que todo recurso possa ser versionado e recriado de forma facilitada.
