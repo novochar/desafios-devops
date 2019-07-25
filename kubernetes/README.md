@@ -10,6 +10,9 @@ Para rodar o deploy utilizar o comando:
 
 Pegar o endereço retornado da execução do deployment e colocar no navegador
 
+## Observações
+
+Em produção provavelmente não usaria o ingress, usaria o load balancer fonecido pela AWS ou GCP, senão utilizaria algum serviço de descoberta de serviço open source como o Istio (https://istio.io)
 
 ## Motivação
 
